@@ -2,7 +2,7 @@
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 10px;
 }
 
 *, *:before, *:after {
@@ -12,7 +12,7 @@ html {
 body, h1, h2, h3, h4, h5, h6, p, {
   margin: 0;
   padding: 0;
-  font-weight: lighter;
+  
 }
 
 /*  Set the font */
@@ -23,11 +23,8 @@ body {
 
 
 /* STYLES */
-/* Write your CSS below */
+/* Write your CSS below */ 
 
-* {
-  font-family: Arial;
-}
 
 .apple {
   background-image: url("../images/apple-pie.jpg");
@@ -40,23 +37,54 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 4rem;
+  font-size: 10rem;
 
 }
 
 .story {
-  font-size: 1.6rem;
-  width: 85%;
+  font-size: 4rem;
   flex-wrap: wrap;
-  padding: 30px 10px;
-  margin: auto;
+  margin-left: 25rem;
+  margin-right: 25rem;
 }
 
 .info {
   display: block;
   margin: auto;
+  padding: 40px 0px;
 }
 
-li {
-  font-size: 1.5rem;
+.line {
+  border-top: 3px solid #bbb;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.section-title {
+  font-size: 4rem;
+  flex-wrap: wrap;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  padding-top: 5rem;
+  
+}
+
+.list > li {
+  font-size: 3.5rem;
+  flex-wrap: wrap;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  list-style: "- ";
+}
+
+.directions > li {
+  font-size: 3.5rem;
+  flex-wrap: wrap;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  
+}
+
+.directions {
+  margin-bottom: 25rem;
 }
