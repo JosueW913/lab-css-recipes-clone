@@ -25,6 +25,9 @@ body {
 /* STYLES */
 /* Write your CSS below */
 
+* {
+  font-family: Arial;
+}
 
 .apple {
   background-image: url("../images/apple-pie.jpg");
@@ -39,6 +42,19 @@ body {
   color: white;
   font-size: 4rem;
 
+}
+
+.story {
+  font-size: 1.6rem;
+  width: 85%;
+  flex-wrap: wrap;
+  padding: 30px 10px;
+  margin: auto;
+}
+
+.info {
+  display: block;
+  margin: auto;
 }
 
 li {
